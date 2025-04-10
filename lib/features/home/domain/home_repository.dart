@@ -1,5 +1,5 @@
-import 'home_entity.dart';
+import '../data/home_model.dart';
 
 abstract class HomeRepository {
-  Future<List<HomeData>> getHomeData();
+  Future<List<GetHomeData>> getHomeData();
 }
